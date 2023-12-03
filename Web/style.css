@@ -1,0 +1,39 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe6e6;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.button {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#button {
+    background-color: #ff4d4d;
+    color: #fff;
+}
+
+#textAbove {
+    margin: 10px 0;
+    color: #333;
+}
+
+#logo {
+    width: 250px;
+    margin-bottom: -50px; 
+}
