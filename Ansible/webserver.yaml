@@ -1,38 +1,38 @@
 ---
 - hosts: webserver
-    ansible_become_pass: "zzzxxx"
+  become: yes
 
   tasks:
-    - name: 3. Update apt package cache
+    - name: 1. Update apt package cache
       apt:
         update_cache: yes
       become: yes
 
-    - name: 4. Install Apache2
+    - name: 2. Install Apache2
       apt:
         name: apache2
         state: present
       become: yes
 
-    - name: 5. Install Apache PHP Module
+    - name: 3. Install Apache PHP Module
       apt:
         name: libapache2-mod-php
         state: present
       become: yes
 
-    - name: 6. Install MySQL support for PHP
+    - name: 4#. Install MySQL support for PHP
       apt:
         name: php-mysql
         state: present
       become: yes
 
-    - name: 7. Remove index.html file
+    - name: 5. Remove index.html file
       file:
         path: /var/www/html/index.html
         state: absent
       become: yes
 
-    - name: 8. Copy files from repository to /var/www/html/
+    - name: 6. Copy files from repository to /var/www/html/
       copy:
         src: "{{ item.src }}"
         dest: "/var/www/html/{{ item.dest }}"
@@ -41,9 +41,10 @@
       become: yes
       loop:
         - { src: "../Web/index.html", dest: "index.html" }
-        - { src: "../Web/index.notFound.html", dest: "notFound.html" }
+        - { src: "../Web/notFound.html", dest: "notFound.html" }
+        - { src: "../Web/style.css", dest: "style.css" }
 
-    - name: 9. Create new directories
+    - name: 7. Create new directories
       file:
         path: "{{ item }}"
         state: directory
@@ -55,7 +56,7 @@
         - /var/www/html/vendor
         - /var/www/html/images
 
-    - name: 10. Replace code from repository into connect.php
+    - name: 8. Replace code from repository into connect.php
       template:
         src: ../Web/config/connect.php
         dest: /var/www/html/config/connect.php
@@ -63,16 +64,16 @@
         group: root
       become: yes
 
-    - name: 10. Replace code from repository into connect.php
+    - name: 9. Replace code from repository into connect.php
       template:
-        src: ../Web/config/redirect.php
-        dest: /var/www/html/config/redirect.php
+        src: ../Web/vendor/redirect.php
+        dest: /var/www/html/vendor/redirect.php
         owner: root
         group: root
       become: yes
 
-    - name: 10. Replace code from repository into connect.php
-      template:
+    - name: 12. Copy images from repository to /var/www/html/images/
+      copy:
         src: "{{ item.src }}"
         dest: "/var/www/html/images/{{ item.dest }}"
         owner: root
@@ -82,7 +83,7 @@
         - { src: "../Web/images/VA.png", dest: "VA.png" }
         - { src: "../Web/images/sad.png", dest: "sad.png" }
 
-    - name: 13. Restart Apache2
+    - name: 11. Restart Apache2
       service:
         name: apache2
         state: restarted
