@@ -61,8 +61,8 @@
         name: "vadata"
         target: "{{ item }}"
       loop:
-        - "InsertData.sql"
         - "VA.sql"
+        - "InsertData.sql"
 
     - name: 9. Restarting MariaDB/MySQL server
       service:

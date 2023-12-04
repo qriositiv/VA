@@ -1,7 +1,8 @@
 CREATE TABLE IF NOT EXISTS link (
     link_id INT AUTO_INCREMENT PRIMARY KEY,
     link_date DATE,
-    link VARCHAR(255)
+    link_embed VARCHAR(1023),
+    link_description VARCHAR(127)
 );
 
 CREATE TABLE IF NOT EXISTS visit (

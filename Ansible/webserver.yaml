@@ -73,7 +73,7 @@
         group: root
       become: yes
       loop:
-        - { src: "../Web/vendor/redirect.php", dest: "redirect.php" }
+        - { src: "../Web/vendor/tiktok.php", dest: "tiktok.php" }
         - { src: "../Web/vendor/register.php", dest: "register.php" }
 
     - name: 10. Copy images from repository to images folder
