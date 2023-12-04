@@ -56,7 +56,7 @@
         - /var/www/html/vendor
         - /var/www/html/images
 
-    - name: 8. Replace code from repository into connect.php
+    - name: 8. Replace code from repository to config folder
       template:
         src: ../Web/config/connect.php
         dest: /var/www/html/config/connect.php
@@ -64,15 +64,18 @@
         group: root
       become: yes
 
-    - name: 9. Replace code from repository into connect.php
-      template:
-        src: ../Web/vendor/redirect.php
-        dest: /var/www/html/vendor/redirect.php
+    - name: 9. Replace code from repository to vendor folder
+      copy:
+        src: "{{ item.src }}"
+        dest: "/var/www/html/{{ item.dest }}"
         owner: root
         group: root
       become: yes
+      loop:
+        - { src: "../Web/vendor/redirect.php", dest: "redirect.php" }
+        - { src: "../Web/vendor/register.php", dest: "register.php" }
 
-    - name: 12. Copy images from repository to /var/www/html/images/
+    - name: 10. Copy images from repository to images folder
       copy:
         src: "{{ item.src }}"
         dest: "/var/www/html/images/{{ item.dest }}"
