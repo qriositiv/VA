@@ -44,18 +44,25 @@
         state: present
       become: yes
 
-    - name: 7. Copy VA.sql file
+    - name: 7. Copy SQL files
       copy:
-        src: ../Misc/VA.sql
-        dest: VA.sql
+        src: "{{ item.src }}"
+        dest: "{{ item.dest }}"
+      become: yes
+      loop:
+        - { src: "../Misc/InsertData.sql", dest: "InsertData.sql" }
+        - { src: "../Misc/VA.sql", dest: "VA.sql" }
 
-    - name: 8. Importing datbase SQL file
+    - name: 8. Importing datbase SQL files
       mysql_db:
         login_user: "qriositiv"
         login_password: "admin"
         state: import
         name: "vadata"
-        target: VA.sql
+        target: "{{ item }}"
+      loop:
+        - "InsertData.sql"
+        - "VA.sql"
 
     - name: 9. Restarting MariaDB/MySQL server
       service:

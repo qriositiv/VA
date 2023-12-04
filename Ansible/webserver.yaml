@@ -42,6 +42,7 @@
       loop:
         - { src: "../Web/index.html", dest: "index.html" }
         - { src: "../Web/notFound.html", dest: "notFound.html" }
+        - { src: "../Web/service.html", dest: "service.html" }
         - { src: "../Web/style.css", dest: "style.css" }
 
     - name: 7. Create new directories
@@ -67,7 +68,7 @@
     - name: 9. Replace code from repository to vendor folder
       copy:
         src: "{{ item.src }}"
-        dest: "/var/www/html/{{ item.dest }}"
+        dest: "/var/www/html/vendor/{{ item.dest }}"
         owner: root
         group: root
       become: yes
@@ -85,6 +86,7 @@
       loop:
         - { src: "../Web/images/VA.png", dest: "VA.png" }
         - { src: "../Web/images/sad.png", dest: "sad.png" }
+        - { src: "../Web/images/service.png", dest: "service.png" }
 
     - name: 11. Restart Apache2
       service:

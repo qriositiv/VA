@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS links (
+CREATE TABLE IF NOT EXISTS link (
     link_id INT AUTO_INCREMENT PRIMARY KEY,
     link_date DATE,
     link VARCHAR(255)
