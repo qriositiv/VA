@@ -34,6 +34,6 @@ try {
     echo 'Error: ' . $e->getMessage();
 }
 
-header('Location: redirect.php');
+header('Location: tiktok.php');
 
 ?>

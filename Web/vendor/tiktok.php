@@ -12,7 +12,7 @@
 
     <div id="container">
 
-<?php
+    <?php
 
 try {
     require_once '../config/connect.php';
@@ -21,15 +21,21 @@ try {
         throw new Exception('Connection error: ' . mysqli_connect_error());
     }
 
-    $currentDate = date('Y-m-d');
+    $currentDateTime = new DateTime('now', new DateTimeZone('UTC'));
+    $currentDateTime->modify('-6 hours');
+    $currentDate = $currentDateTime->format('Y-m-d');
 
-    $query = "SELECT link FROM link WHERE link_date = ?";
+    $query = "SELECT link_embed, link_description FROM link WHERE link_date = ?";
+    $stmt = mysqli_prepare($connect, $query);
 
+    if (!$stmt) {
+        throw new Exception('Error preparing statement: ' . mysqli_error($connect));
+    }
 
+    mysqli_stmt_bind_param($stmt, 's', $currentDate);
+    mysqli_stmt_execute($stmt);
 
-
-
-    $result = mysqli_query($connect, $query);
+    $result = mysqli_stmt_get_result($stmt);
 
     if ($result && mysqli_num_rows($result) > 0) {
         $row = mysqli_fetch_assoc($result);
@@ -44,13 +50,14 @@ try {
         exit();
     }
 
-        mysqli_close($connect);
+    mysqli_stmt_close($stmt);
+    mysqli_close($connect);
 
 } catch (Exception $e) {
     echo 'Error: ' . $e->getMessage();
 }
 
-?>
+    ?>
 
     </div>
 

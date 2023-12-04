@@ -16,3 +16,4 @@ To setup simple website with a button which redirects user to a outsource page e
 `sudo apt-get update && sudo apt-get upgrade -y`
 `sudo apt install git`
 4. Clone the repository: `git clone https://github.com/qriositiv/VA`
+5. Go to `cd VA/Ansible` directory and start shell script `bash main.sh`
