@@ -18,7 +18,8 @@ try {
     require_once '../config/connect.php';
 
     if (!$connect) {
-        throw new Exception('Connection error: ' . mysqli_connect_error());
+        header('Location: ../notFound.html');
+        exit();
     }
 
     $currentDateTime = new DateTime('now', new DateTimeZone('UTC'));
@@ -29,7 +30,8 @@ try {
     $stmt = mysqli_prepare($connect, $query);
 
     if (!$stmt) {
-        throw new Exception('Error preparing statement: ' . mysqli_error($connect));
+        header('Location: ../notFound.html');
+        exit();
     }
 
     mysqli_stmt_bind_param($stmt, 's', $currentDate);

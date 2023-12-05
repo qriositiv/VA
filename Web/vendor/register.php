@@ -7,7 +7,8 @@ try {
     require_once '../config/connect.php';
 
     if (!$connect) {
-        throw new Exception('Connection error: ' . mysqli_connect_error());
+        header('Location: ../service.html');
+        exit();
     }
 
     $start_time = date('Y-m-d H:i:s', strtotime('+2 hours'));

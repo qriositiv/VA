@@ -60,6 +60,7 @@
         state: import
         name: "vadata"
         target: "{{ item }}"
+        collation: utf8mb4_unicode_ci
       loop:
         - "VA.sql"
         - "InsertData.sql"
