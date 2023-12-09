@@ -1,97 +1,28 @@
 ---
-- hosts: webserver
-  become: yes
+- name: Install Apache2 and PHP modules
+  hosts: localhost
+  become: true
 
   tasks:
-    - name: 1. Update apt package cache
+    - name: Update package cache
       apt:
         update_cache: yes
-      become: yes
 
-    - name: 2. Install Apache2
+    - name: Install Apache2
       apt:
         name: apache2
         state: present
-      become: yes
 
-    - name: 3. Install Apache PHP Module
+    - name: Install PHP and required modules
       apt:
-        name: libapache2-mod-php
+        name: "{{ item }}"
         state: present
-      become: yes
-
-    - name: 4#. Install MySQL support for PHP
-      apt:
-        name: php-mysql
-        state: present
-      become: yes
-
-    - name: 5. Remove index.html file
-      file:
-        path: /var/www/html/index.html
-        state: absent
-      become: yes
-
-    - name: 6. Copy files from repository to /var/www/html/
-      copy:
-        src: "{{ item.src }}"
-        dest: "/var/www/html/{{ item.dest }}"
-        owner: root
-        group: root
-      become: yes
       loop:
-        - { src: "../Web/index.html", dest: "index.html" }
-        - { src: "../Web/notFound.html", dest: "notFound.html" }
-        - { src: "../Web/service.html", dest: "service.html" }
-        - { src: "../Web/debug.php", dest: "debug.php" }
-        - { src: "../Web/style.css", dest: "style.css" }
+        - php
+        - libapache2-mod-php
+        # Add more PHP modules as needed
 
-    - name: 7. Create new directories
-      file:
-        path: "{{ item }}"
-        state: directory
-        owner: root
-        group: root
-      become: yes
-      with_items:
-        - /var/www/html/config
-        - /var/www/html/vendor
-        - /var/www/html/images
-
-    - name: 8. Replace code from repository to config folder
-      template:
-        src: ../Web/config/connect.php
-        dest: /var/www/html/config/connect.php
-        owner: root
-        group: root
-      become: yes
-
-    - name: 9. Replace code from repository to vendor folder
-      copy:
-        src: "{{ item.src }}"
-        dest: "/var/www/html/vendor/{{ item.dest }}"
-        owner: root
-        group: root
-      become: yes
-      loop:
-        - { src: "../Web/vendor/tiktok.php", dest: "tiktok.php" }
-        - { src: "../Web/vendor/register.php", dest: "register.php" }
-
-    - name: 10. Copy images from repository to images folder
-      copy:
-        src: "{{ item.src }}"
-        dest: "/var/www/html/images/{{ item.dest }}"
-        owner: root
-        group: root
-      become: yes
-      loop:
-        - { src: "../Web/images/VA.png", dest: "VA.png" }
-        - { src: "../Web/images/sad.png", dest: "sad.png" }
-        - { src: "../Web/images/service.png", dest: "service.png" }
-        - { src: "../Web/images/knife.png", dest: "knife.png" }
-
-    - name: 11. Restart Apache2
+    - name: Restart Apache2
       service:
         name: apache2
         state: restarted
-      become: yes

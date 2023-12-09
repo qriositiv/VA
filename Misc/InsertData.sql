@@ -1,30 +1,17 @@
-ALTER DATABASE vadata CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-ALTER TABLE link MODIFY COLUMN link_description TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+ALTER TABLE link MODIFY link_embed TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+ALTER TABLE link MODIFY link_description TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
 INSERT INTO link (link_date, link_embed, link_description)
 VALUES (
-    '2023-12-04',
-    '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@yummy_maki/video/7301274805423082757" data-video-id="7301274805423082757" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@yummy_maki" href="https://www.tiktok.com/@yummy_maki?refer=embed">@yummy_maki</a> <!-- ... rest of the HTML ... --> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>',
-    'Угощу тебя суши на этой неделе ❤️'
-), (
-    '2023-12-05',
-    '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@f.o.t.g.m/video/7302688343257615647" data-video-id="7302688343257615647" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@f.o.t.g.m" href="https://www.tiktok.com/@f.o.t.g.m?refer=embed">@f.o.t.g.m</a> <p></p> <a target="_blank" title="♬ original sound - F.O.T.G.M." href="https://www.tiktok.com/music/original-sound-7302688439558867742?refer=embed">♬ original sound - F.O.T.G.M.</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>',
-    'Хочешь, буду так же за тобой бегать? 🤔'
-), (
-    '2023-12-06',
+    '2023-12-09',
     '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@the_relationship_memes/video/7306247627371285792" data-video-id="7306247627371285792" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@the_relationship_memes" href="https://www.tiktok.com/@the_relationship_memes?refer=embed">@the_relationship_memes</a> relatable! 🥹 ( email for video credit&#47;removal ) <a title="relationship" target="_blank" href="https://www.tiktok.com/tag/relationship?refer=embed">#relationship</a> <a title="relationshipmemes" target="_blank" href="https://www.tiktok.com/tag/relationshipmemes?refer=embed">#relationshipmemes</a> <a title="boyfriend" target="_blank" href="https://www.tiktok.com/tag/boyfriend?refer=embed">#boyfriend</a> <a title="girlfriend" target="_blank" href="https://www.tiktok.com/tag/girlfriend?refer=embed">#girlfriend</a> <a title="memes" target="_blank" href="https://www.tiktok.com/tag/memes?refer=embed">#memes</a> <a target="_blank" title="♬ original sound - the relationship memes" href="https://www.tiktok.com/music/original-sound-7306247641762319137?refer=embed">♬ original sound - the relationship memes</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>',
     'Съем тебя когда-нибудь 😋'
 ), (
-    '2023-12-07',
-    '',
-    ''
+    '2023-12-10',
+    '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@l0st_s0ul.._/video/7306679344896806187" data-video-id="7306679344896806187" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@l0st_s0ul.._" href="https://www.tiktok.com/@l0st_s0ul.._?refer=embed">@l0st_s0ul.._</a> This is my friends recording  <a title="bunny" target="_blank" href="https://www.tiktok.com/tag/bunny?refer=embed">#bunny</a> <a title="happy" target="_blank" href="https://www.tiktok.com/tag/happy?refer=embed">#happy</a> <a title="us" target="_blank" href="https://www.tiktok.com/tag/us?refer=embed">#us</a> <a title="love" target="_blank" href="https://www.tiktok.com/tag/love?refer=embed">#love</a> <a title="usinanotheruniverse" target="_blank" href="https://www.tiktok.com/tag/usinanotheruniverse?refer=embed">#usinanotheruniverse</a> <a title="usinanotherlife" target="_blank" href="https://www.tiktok.com/tag/usinanotherlife?refer=embed">#usinanotherlife</a> <a title="usinanotherworld" target="_blank" href="https://www.tiktok.com/tag/usinanotherworld?refer=embed">#usinanotherworld</a> <a title="cute" target="_blank" href="https://www.tiktok.com/tag/cute?refer=embed">#cute</a> <a title="bunnies" target="_blank" href="https://www.tiktok.com/tag/bunnies?refer=embed">#bunnies</a> <a title="twobunnies" target="_blank" href="https://www.tiktok.com/tag/twobunnies?refer=embed">#twobunnies</a> <a title="fyp" target="_blank" href="https://www.tiktok.com/tag/fyp?refer=embed">#fyp</a> <a title="fypシ" target="_blank" href="https://www.tiktok.com/tag/fyp%E3%82%B7?refer=embed">#fypシ</a> <a title="viral" target="_blank" href="https://www.tiktok.com/tag/viral?refer=embed">#viral</a> <a title="trend" target="_blank" href="https://www.tiktok.com/tag/trend?refer=embed">#trend</a> <a target="_blank" title="♬ Clay Pigeons - Michael Cera" href="https://www.tiktok.com/music/Clay-Pigeons-6754909901748701186?refer=embed">♬ Clay Pigeons - Michael Cera</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>',
+    'Это мы с тобой такие зайки 🥰'
 ), (
-    '2023-12-08',
-    '',
-    ''
-), (
-    '2023-12-09',
-    '',
-    ''
-), 
-
+    '2023-12-11',
+    '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@kleinekraft/video/7277568006635506977" data-video-id="7277568006635506977" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@kleinekraft" href="https://www.tiktok.com/@kleinekraft?refer=embed">@kleinekraft</a> 😍 … <a title="foryou" target="_blank" href="https://www.tiktok.com/tag/foryou?refer=embed">#foryou</a> <a title="foryoupage" target="_blank" href="https://www.tiktok.com/tag/foryoupage?refer=embed">#foryoupage</a> <a title="fyp" target="_blank" href="https://www.tiktok.com/tag/fyp?refer=embed">#fyp</a> <a title="fypシ" target="_blank" href="https://www.tiktok.com/tag/fyp%E3%82%B7?refer=embed">#fypシ</a> <a title="fypシ゚viral" target="_blank" href="https://www.tiktok.com/tag/fyp%E3%82%B7%E3%82%9Aviral?refer=embed">#fypシ゚viral</a> <a title="viral" target="_blank" href="https://www.tiktok.com/tag/viral?refer=embed">#viral</a> <a title="fürdich" target="_blank" href="https://www.tiktok.com/tag/f%C3%BCrdich?refer=embed">#fürdich</a> <a title="cute" target="_blank" href="https://www.tiktok.com/tag/cute?refer=embed">#cute</a> <a title="love" target="_blank" href="https://www.tiktok.com/tag/love?refer=embed">#love</a> <a title="couple" target="_blank" href="https://www.tiktok.com/tag/couple?refer=embed">#couple</a> <a target="_blank" title="♬ Originalton - Orangenmuffin" href="https://www.tiktok.com/music/Originalton-7277568029909732129?refer=embed">♬ Originalton - Orangenmuffin</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>',
+    'А когда я у тебя майке забыл, ты надевала её на подушку и обнимала? 🤭'
+);

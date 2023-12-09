@@ -1,5 +1,5 @@
 ---
-- hosts: database
+- hosts: localhost
   become: yes
 
   tasks:
@@ -8,26 +8,26 @@
         update_cache: yes
       become: yes
 
-    - name: 2. Installing mariadb-server
+    - name: 2. Installing MySQL server
       apt:
-        pkg: mariadb-server
+        pkg: default-mysql-server
         state: present
       become: yes
 
-    - name: 3 Installing pyhthon3-mysqldb
+    - name: 3. Installing python3-mysqldb
       apt:
         pkg: python3-mysqldb
         state: present
       become: yes
 
-    - name: 4. Starting MariaDB server
+    - name: 4. Starting MySQL server
       service:
-        name: mariadb
+        name: mysql
         enabled: true
         state: started
       become: yes
 
-    - name: 5. Creating apache user for MariaDB
+    - name: 5. Creating MySQL user
       mysql_user:
         user: "qriositiv"
         password: "admin"
@@ -53,7 +53,7 @@
         - { src: "../Misc/InsertData.sql", dest: "InsertData.sql" }
         - { src: "../Misc/VA.sql", dest: "VA.sql" }
 
-    - name: 8. Importing datbase SQL files
+    - name: 8. Importing database SQL files
       mysql_db:
         login_user: "qriositiv"
         login_password: "admin"
@@ -61,12 +61,13 @@
         name: "vadata"
         target: "{{ item }}"
         collation: utf8mb4_unicode_ci
+        encoding: utf8mb4
       loop:
         - "VA.sql"
         - "InsertData.sql"
 
-    - name: 9. Restarting MariaDB/MySQL server
+    - name: 9. Restarting MySQL server
       service:
-        name: mariadb
+        name: mysql
         state: restarted
       become: yes
