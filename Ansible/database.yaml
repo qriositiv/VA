@@ -50,8 +50,19 @@
         dest: "{{ item.dest }}"
       become: yes
       loop:
-        - { src: "../Misc/InsertData.sql", dest: "InsertData.sql" }
         - { src: "../Misc/VA.sql", dest: "VA.sql" }
+        - { src: "../Misc/January/InsertData.sql", dest: "January.sql" }
+        - { src: "../Misc/February/InsertData.sql", dest: "February.sql" }
+        - { src: "../Misc/March/InsertData.sql", dest: "March.sql" }
+        - { src: "../Misc/April/InsertData.sql", dest: "April.sql" }
+        - { src: "../Misc/May/InsertData.sql", dest: "May.sql" }
+        - { src: "../Misc/June/InsertData.sql", dest: "June.sql" }
+        - { src: "../Misc/July/InsertData.sql", dest: "July.sql" }
+        - { src: "../Misc/August/InsertData.sql", dest: "August.sql" }
+        - { src: "../Misc/September/InsertData.sql", dest: "September.sql" }
+        - { src: "../Misc/October/InsertData.sql", dest: "October.sql" }
+        - { src: "../Misc/November/InsertData.sql", dest: "November.sql" }
+        - { src: "../Misc/December/InsertData.sql", dest: "December.sql" }
 
     - name: 8. Importing database SQL files
       mysql_db:
@@ -64,7 +75,18 @@
         encoding: utf8mb4
       loop:
         - "VA.sql"
-        - "InsertData.sql"
+        - "January.sql"
+        - "February.sql"
+        - "March.sql"
+        - "April.sql"
+        - "May.sql"
+        - "June.sql"
+        - "July.sql"
+        - "August.sql"
+        - "September.sql"
+        - "October.sql"
+        - "November.sql"
+        - "December.sql"
 
     - name: 9. Restarting MySQL server
       service:

@@ -4,5 +4,5 @@
 sudo apt install ansible
 
 # Step 2: Run playbooks
-ansible-playbook -i hosts webserver.yaml --ask-become-pass
-ansible-playbook -i hosts database.yaml --ask-become-pass
+ansible-playbook webserver.yaml --ask-become-pass
+ansible-playbook database.yaml --ask-become-pass
