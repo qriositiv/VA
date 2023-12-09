@@ -51,18 +51,19 @@
       become: yes
       loop:
         - { src: "../Misc/VA.sql", dest: "VA.sql" }
-        - { src: "../Misc/January/InsertData.sql", dest: "January.sql" }
-        - { src: "../Misc/February/InsertData.sql", dest: "February.sql" }
-        - { src: "../Misc/March/InsertData.sql", dest: "March.sql" }
-        - { src: "../Misc/April/InsertData.sql", dest: "April.sql" }
-        - { src: "../Misc/May/InsertData.sql", dest: "May.sql" }
-        - { src: "../Misc/June/InsertData.sql", dest: "June.sql" }
-        - { src: "../Misc/July/InsertData.sql", dest: "July.sql" }
-        - { src: "../Misc/August/InsertData.sql", dest: "August.sql" }
-        - { src: "../Misc/September/InsertData.sql", dest: "September.sql" }
-        - { src: "../Misc/October/InsertData.sql", dest: "October.sql" }
-        - { src: "../Misc/November/InsertData.sql", dest: "November.sql" }
-        - { src: "../Misc/December/InsertData.sql", dest: "December.sql" }
+        - { src: "../Misc/InsertData/01. January/InsertData.sql", dest: "January.sql" }
+        - { src: "../Misc/InsertData/02. February/InsertData.sql", dest: "February.sql" }
+        - { src: "../Misc/InsertData/03. March/InsertData.sql", dest: "March.sql" }
+        - { src: "../Misc/InsertData/04. April/InsertData.sql", dest: "April.sql" }
+        - { src: "../Misc/InsertData/05. May/InsertData.sql", dest: "May.sql" }
+        - { src: "../Misc/InsertData/06. June/InsertData.sql", dest: "June.sql" }
+        - { src: "../Misc/InsertData/07. July/InsertData.sql", dest: "July.sql" }
+        - { src: "../Misc/InsertData/08. August/InsertData.sql", dest: "August.sql" }
+        - { src: "../Misc/InsertData/09. September/InsertData.sql", dest: "September.sql" }
+        - { src: "../Misc/InsertData/10. October/InsertData.sql", dest: "October.sql" }
+        - { src: "../Misc/InsertData/11. November/InsertData.sql", dest: "November.sql" }
+        - { src: "../Misc/InsertData/12. December/InsertData.sql", dest: "December.sql" }
+        - { src: "../Misc/InsertData/X. TestData/TestData.sql", dest: "TestData.sql" }
 
     - name: 8. Importing database SQL files
       mysql_db:
@@ -87,6 +88,7 @@
         - "October.sql"
         - "November.sql"
         - "December.sql"
+        - "TestData.sql"
 
     - name: 9. Restarting MySQL server
       service:
