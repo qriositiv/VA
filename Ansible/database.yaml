@@ -1,6 +1,11 @@
 ---
 - hosts: localhost
   become: yes
+  vars:
+    db_host: "localhost"
+    db_user: "valotqpq_qriositiv"
+    db_pass: "Q!lock+com.9"
+    db_name: "valotqpq_vadata"
 
   tasks:
     - name: 1. Update apt package cache
@@ -29,8 +34,8 @@
 
     - name: 5. Creating MySQL user
       mysql_user:
-        user: "qriositiv"
-        password: "admin"
+        user: "{{ db_user }}"
+        password: "{{ db_pass }}"
         priv: "*.*:ALL,GRANT"
         host: "%"
         state: present
@@ -40,7 +45,7 @@
 
     - name: 6. Creating a database
       mysql_db:
-        name: "vadata"
+        name: "{{ db_name }}"
         state: present
       become: yes
 
@@ -63,14 +68,13 @@
         - { src: "../Misc/InsertData/10. October/InsertData.sql", dest: "October.sql" }
         - { src: "../Misc/InsertData/11. November/InsertData.sql", dest: "November.sql" }
         - { src: "../Misc/InsertData/12. December/InsertData.sql", dest: "December.sql" }
-        - { src: "../Misc/InsertData/X. TestData/TestData.sql", dest: "TestData.sql" }
 
     - name: 8. Importing database SQL files
       mysql_db:
-        login_user: "qriositiv"
-        login_password: "admin"
+        login_user: "{{ db_user }}"
+        login_password: "{{ db_pass }}"
         state: import
-        name: "vadata"
+        name: "{{ db_name }}"
         target: "{{ item }}"
         collation: utf8mb4_unicode_ci
         encoding: utf8mb4
@@ -88,7 +92,6 @@
         - "October.sql"
         - "November.sql"
         - "December.sql"
-        - "TestData.sql"
 
     - name: 9. Restarting MySQL server
       service:

@@ -1,125 +1,129 @@
 INSERT INTO link (link_date, link_embed, link_description) VALUES (
+    '2023-12-31',
+    '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@hungbeoeditor/video/7299747280029027627" data-video-id="7299747280029027627" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@hungbeoeditor" href="https://www.tiktok.com/@hungbeoeditor?refer=embed">@hungbeoeditor</a> 🥰🥰🥰 <a title="trend" target="_blank" href="https://www.tiktok.com/tag/trend?refer=embed">#trend</a> <a title="trending" target="_blank" href="https://www.tiktok.com/tag/trending?refer=embed">#trending</a> <a title="hungbeoeditor" target="_blank" href="https://www.tiktok.com/tag/hungbeoeditor?refer=embed">#hungbeoeditor</a> <a title="couples" target="_blank" href="https://www.tiktok.com/tag/couples?refer=embed">#couples</a> <a title="love" target="_blank" href="https://www.tiktok.com/tag/love?refer=embed">#love</a> <a target="_blank" title="♬ original sound - ︎ ︎ ︎ ︎︎ meow ︎ ︎ ︎ ︎ ︎ ︎ ︎︎ - meow" href="https://www.tiktok.com/music/original-sound-︎-︎-︎-︎︎-meow-︎-︎-︎-︎-︎-︎-︎︎-7290562123506879237?refer=embed">♬ original sound - ︎ ︎ ︎ ︎︎ meow ︎ ︎ ︎ ︎ ︎ ︎ ︎︎ - meow</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>',
+    'А когда мы снимем что-то миленькое? 🥰'
+), (
     '2024-01-01',
-    '',
-    ''
+    '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@marytetch/video/7309768741351361798" data-video-id="7309768741351361798" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@marytetch" href="https://www.tiktok.com/@marytetch?refer=embed">@marytetch</a> <a title="отношения" target="_blank" href="https://www.tiktok.com/tag/%D0%BE%D1%82%D0%BD%D0%BE%D1%88%D0%B5%D0%BD%D0%B8%D1%8F?refer=embed">#отношения</a> <a title="гирлянда" target="_blank" href="https://www.tiktok.com/tag/%D0%B3%D0%B8%D1%80%D0%BB%D1%8F%D0%BD%D0%B4%D0%B0?refer=embed">#гирлянда</a> <a title="скороновыйгод" target="_blank" href="https://www.tiktok.com/tag/%D1%81%D0%BA%D0%BE%D1%80%D0%BE%D0%BD%D0%BE%D0%B2%D1%8B%D0%B9%D0%B3%D0%BE%D0%B4?refer=embed">#скороновыйгод</a> <a target="_blank" title="♬ оригинальный звук - 97% сарказма" href="https://www.tiktok.com/music/оригинальный-звук-7309768749937838853?refer=embed">♬ оригинальный звук - 97% сарказма</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>',
+    'Надеюсь мы прекрасно провели новый год 🥳'
 ), (
     '2024-01-02',
-    '',
-    ''
+    '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@assekka.aa/video/7307971632880995590" data-video-id="7307971632880995590" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@assekka.aa" href="https://www.tiktok.com/@assekka.aa?refer=embed">@assekka.aa</a> <p>🙈</p> <a target="_blank" title="♬ оригинальный звук - insta: assekka.aa" href="https://www.tiktok.com/music/оригинальный-звук-7307971658315877125?refer=embed">♬ оригинальный звук - insta: assekka.aa</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>',
+    'Какой ужас 😂 не обижайся на меня пожалуйста, каким бы я бобром небыл 🥺'
 ), (
     '2024-01-03',
-    '',
-    ''
+    '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@pou.daily.adventure/video/7307403562760310058" data-video-id="7307403562760310058" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@pou.daily.adventure" href="https://www.tiktok.com/@pou.daily.adventure?refer=embed">@pou.daily.adventure</a> Me waiting for you to text me <a title="pou" target="_blank" href="https://www.tiktok.com/tag/pou?refer=embed">#pou</a> <a target="_blank" title="♬ Rio romeo - .stokgs☆" href="https://www.tiktok.com/music/Rio-romeo-7296592358425381638?refer=embed">♬ Rio romeo - .stokgs☆</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>',
+    'Пиши мне чаще! Твои сообщения греют меня! 🔥'
 ), (
     '2024-01-04',
-    '',
-    ''
+    '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@akerke.kiyalyn/video/7309483451495861509" data-video-id="7309483451495861509" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@akerke.kiyalyn" href="https://www.tiktok.com/@akerke.kiyalyn?refer=embed">@akerke.kiyalyn</a> Отправь самому важному человеку🫂💖 <a title="важный" target="_blank" href="https://www.tiktok.com/tag/%D0%B2%D0%B0%D0%B6%D0%BD%D1%8B%D0%B9?refer=embed">#важный</a> <a title="тыважный" target="_blank" href="https://www.tiktok.com/tag/%D1%82%D1%8B%D0%B2%D0%B0%D0%B6%D0%BD%D1%8B%D0%B9?refer=embed">#тыважный</a> <a title="важныйчеловек" target="_blank" href="https://www.tiktok.com/tag/%D0%B2%D0%B0%D0%B6%D0%BD%D1%8B%D0%B9%D1%87%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA?refer=embed">#важныйчеловек</a> <a title="саморазвитие" target="_blank" href="https://www.tiktok.com/tag/%D1%81%D0%B0%D0%BC%D0%BE%D1%80%D0%B0%D0%B7%D0%B2%D0%B8%D1%82%D0%B8%D0%B5?refer=embed">#саморазвитие</a> <a target="_blank" title="♬ оригинальный звук - Акерке | Развитие и контент" href="https://www.tiktok.com/music/оригинальный-звук-7309483460371172101?refer=embed">♬ оригинальный звук - Акерке | Развитие и контент</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>',
+    'Это просто напоминание, что ты - это самое дорогое, что есть у Арсюши 🥺'
 ), (
     '2024-01-05',
-    '',
-    ''
+    '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@lovelycute_baby/video/7309460409545690410" data-video-id="7309460409545690410" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@lovelycute_baby" href="https://www.tiktok.com/@lovelycute_baby?refer=embed">@lovelycute_baby</a> <a title="cat" target="_blank" href="https://www.tiktok.com/tag/cat?refer=embed">#cat</a> <a title="catsoftiktok" target="_blank" href="https://www.tiktok.com/tag/catsoftiktok?refer=embed">#catsoftiktok</a> <a target="_blank" title="♬ nhạc nền  - Gào🍼" href="https://www.tiktok.com/music/nhạc-nền-Gào🍼-7309460425878375211?refer=embed">♬ nhạc nền  - Gào🍼</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>',
+    'Хочешь так же укушу? 😋'
 ), (
     '2024-01-06',
-    '',
-    ''
+    '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@lena.x999/video/7309518539172433184" data-video-id="7309518539172433184" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@lena.x999" href="https://www.tiktok.com/@lena.x999?refer=embed">@lena.x999</a> hm jaaa ich liebe ihn trotzdem.😃 <a title="fy" target="_blank" href="https://www.tiktok.com/tag/fy?refer=embed">#fy</a> <a title="foryou" target="_blank" href="https://www.tiktok.com/tag/foryou?refer=embed">#foryou</a> <a title="boyfriend" target="_blank" href="https://www.tiktok.com/tag/boyfriend?refer=embed">#boyfriend</a> <a title="love" target="_blank" href="https://www.tiktok.com/tag/love?refer=embed">#love</a> <a title="trend" target="_blank" href="https://www.tiktok.com/tag/trend?refer=embed">#trend</a> <a target="_blank" title="♬ super rich kids - shaun" href="https://www.tiktok.com/music/super-rich-kids-6869199442923408134?refer=embed">♬ super rich kids - shaun</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>',
+    'Ой... кхм... мы же порядочные и чистоплотные? 👀'
 ), (
     '2024-01-07',
-    '',
-    ''
+    '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@the_relationship_memes/video/7306247627371285792" data-video-id="7306247627371285792" style="max-width: 605px;min-width: 325px;" ><section></section></blockquote> <script async src="https://www.tiktok.com/embed.js"></script>',
+    'Съем тебя когда-нибудь 😋'
 ), (
     '2024-01-08',
-    '',
-    ''
+    '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@l0st_s0ul.._/video/7306679344896806187" data-video-id="7306679344896806187" style="max-width: 150px;min-width: 75px;" > <section> <a target="_blank" title="@l0st_s0ul.._" href="https://www.tiktok.com/@l0st_s0ul.._?refer=embed">@l0st_s0ul.._</a> This is my friends recording  <a title="bunny" target="_blank" href="https://www.tiktok.com/tag/bunny?refer=embed">#bunny</a> <a title="happy" target="_blank" href="https://www.tiktok.com/tag/happy?refer=embed">#happy</a> <a title="us" target="_blank" href="https://www.tiktok.com/tag/us?refer=embed">#us</a> <a title="love" target="_blank" href="https://www.tiktok.com/tag/love?refer=embed">#love</a> <a title="usinanotheruniverse" target="_blank" href="https://www.tiktok.com/tag/usinanotheruniverse?refer=embed">#usinanotheruniverse</a> <a title="usinanotherlife" target="_blank" href="https://www.tiktok.com/tag/usinanotherlife?refer=embed">#usinanotherlife</a> <a title="usinanotherworld" target="_blank" href="https://www.tiktok.com/tag/usinanotherworld?refer=embed">#usinanotherworld</a> <a title="cute" target="_blank" href="https://www.tiktok.com/tag/cute?refer=embed">#cute</a> <a title="bunnies" target="_blank" href="https://www.tiktok.com/tag/bunnies?refer=embed">#bunnies</a> <a title="twobunnies" target="_blank" href="https://www.tiktok.com/tag/twobunnies?refer=embed">#twobunnies</a> <a title="fyp" target="_blank" href="https://www.tiktok.com/tag/fyp?refer=embed">#fyp</a> <a title="fypシ" target="_blank" href="https://www.tiktok.com/tag/fyp%E3%82%B7?refer=embed">#fypシ</a> <a title="viral" target="_blank" href="https://www.tiktok.com/tag/viral?refer=embed">#viral</a> <a title="trend" target="_blank" href="https://www.tiktok.com/tag/trend?refer=embed">#trend</a> <a target="_blank" title="♬ Clay Pigeons - Michael Cera" href="https://www.tiktok.com/music/Clay-Pigeons-6754909912748712186?refer=embed">♬ Clay Pigeons - Michael Cera</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>',
+    'Это мы с тобой такие зайки 🥰'
 ), (
     '2024-01-09',
-    '',
-    ''
+    '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@kleinekraft/video/7277568006635506977" data-video-id="7277568006635506977" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@kleinekraft" href="https://www.tiktok.com/@kleinekraft?refer=embed">@kleinekraft</a> 😍 … <a title="foryou" target="_blank" href="https://www.tiktok.com/tag/foryou?refer=embed">#foryou</a> <a title="foryoupage" target="_blank" href="https://www.tiktok.com/tag/foryoupage?refer=embed">#foryoupage</a> <a title="fyp" target="_blank" href="https://www.tiktok.com/tag/fyp?refer=embed">#fyp</a> <a title="fypシ" target="_blank" href="https://www.tiktok.com/tag/fyp%E3%82%B7?refer=embed">#fypシ</a> <a title="fypシ゚viral" target="_blank" href="https://www.tiktok.com/tag/fyp%E3%82%B7%E3%82%9Aviral?refer=embed">#fypシ゚viral</a> <a title="viral" target="_blank" href="https://www.tiktok.com/tag/viral?refer=embed">#viral</a> <a title="fürdich" target="_blank" href="https://www.tiktok.com/tag/f%C3%BCrdich?refer=embed">#fürdich</a> <a title="cute" target="_blank" href="https://www.tiktok.com/tag/cute?refer=embed">#cute</a> <a title="love" target="_blank" href="https://www.tiktok.com/tag/love?refer=embed">#love</a> <a title="couple" target="_blank" href="https://www.tiktok.com/tag/couple?refer=embed">#couple</a> <a target="_blank" title="♬ Originalton - Orangenmuffin" href="https://www.tiktok.com/music/Originalton-7277568029909732129?refer=embed">♬ Originalton - Orangenmuffin</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>',
+    'А когда я у тебя майку забыл, ты надевала её на подушку и обнимала? 🤭'
 ), (
     '2024-01-10',
-    '',
-    ''
+    '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@poleshko.va/video/7299524568006282497" data-video-id="7299524568006282497" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@poleshko.va" href="https://www.tiktok.com/@poleshko.va?refer=embed">@poleshko.va</a> <a title="31неделябеременности" target="_blank" href="https://www.tiktok.com/tag/31%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8?refer=embed">#31неделябеременности</a> <a title="беременность" target="_blank" href="https://www.tiktok.com/tag/%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C?refer=embed">#беременность</a> <a title="recommendations" target="_blank" href="https://www.tiktok.com/tag/recommendations?refer=embed">#recommendations</a> <a title="pregnancy" target="_blank" href="https://www.tiktok.com/tag/pregnancy?refer=embed">#pregnancy</a> <a title="беременна" target="_blank" href="https://www.tiktok.com/tag/%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D0%B0?refer=embed">#беременна</a> <a title="рекомендации" target="_blank" href="https://www.tiktok.com/tag/%D1%80%D0%B5%D0%BA%D0%BE%D0%BC%D0%B5%D0%BD%D0%B4%D0%B0%D1%86%D0%B8%D0%B8?refer=embed">#рекомендации</a> <a title="рек" target="_blank" href="https://www.tiktok.com/tag/%D1%80%D0%B5%D0%BA?refer=embed">#рек</a> <a title="31weekspregnant" target="_blank" href="https://www.tiktok.com/tag/31weekspregnant?refer=embed">#31weekspregnant</a> <a target="_blank" title="♬ оригинальный звук - vf" href="https://www.tiktok.com/music/оригинальный-звук-7299524615310101249?refer=embed">♬ оригинальный звук - vf</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>',
+    'Неправда 🥺 я буду тоже переживать за наших бобрят! ❤️'
 ), (
     '2024-01-11',
-    '',
-    ''
+    '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@nachtengel.ch/video/7310171278097386785" data-video-id="7310171278097386785" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@nachtengel.ch" href="https://www.tiktok.com/@nachtengel.ch?refer=embed">@nachtengel.ch</a> <a title="ethiopian_tik_tok" target="_blank" href="https://www.tiktok.com/tag/ethiopian_tik_tok?refer=embed">#ethiopian_tik_tok</a> <a title="fypシ" target="_blank" href="https://www.tiktok.com/tag/fyp%E3%82%B7?refer=embed">#fypシ</a> <a title="fy" target="_blank" href="https://www.tiktok.com/tag/fy?refer=embed">#fy</a> <a title="fyp" target="_blank" href="https://www.tiktok.com/tag/fyp?refer=embed">#fyp</a> <a title="relatable" target="_blank" href="https://www.tiktok.com/tag/relatable?refer=embed">#relatable</a> <a title="foryou" target="_blank" href="https://www.tiktok.com/tag/foryou?refer=embed">#foryou</a> <a title="viral" target="_blank" href="https://www.tiktok.com/tag/viral?refer=embed">#viral</a> <a title="respect" target="_blank" href="https://www.tiktok.com/tag/respect?refer=embed">#respect</a> <a target="_blank" title="♬ Originalton - NachtEngel.ch" href="https://www.tiktok.com/music/Originalton-7310171415125838624?refer=embed">♬ Originalton - NachtEngel.ch</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>',
+    'Так уж и быть... только наши дети смогут тебе волосы обрезать 😌'
 ), (
     '2024-01-12',
-    '',
-    ''
+    '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@sergey_kagilev_foods/video/7310132692215926046" data-video-id="7310132692215926046" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@sergey_kagilev_foods" href="https://www.tiktok.com/@sergey_kagilev_foods?refer=embed">@sergey_kagilev_foods</a> <p></p> <a target="_blank" title="♬ original sound - Сергей Кагилев" href="https://www.tiktok.com/music/original-sound-7310132903312493342?refer=embed">♬ original sound - Сергей Кагилев</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>',
+    'Надеюсь моя жена будет готовить невероятно вкусно! 😋'
 ), (
     '2024-01-13',
-    '',
-    ''
+    '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@kleinekraft/video/7277956246555102497" data-video-id="7277956246555102497" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@kleinekraft" href="https://www.tiktok.com/@kleinekraft?refer=embed">@kleinekraft</a> 🥰… <a title="foryou" target="_blank" href="https://www.tiktok.com/tag/foryou?refer=embed">#foryou</a> <a title="foryoupage" target="_blank" href="https://www.tiktok.com/tag/foryoupage?refer=embed">#foryoupage</a> <a title="fyp" target="_blank" href="https://www.tiktok.com/tag/fyp?refer=embed">#fyp</a> <a title="fypシ" target="_blank" href="https://www.tiktok.com/tag/fyp%E3%82%B7?refer=embed">#fypシ</a> <a title="fypシ゚viral" target="_blank" href="https://www.tiktok.com/tag/fyp%E3%82%B7%E3%82%9Aviral?refer=embed">#fypシ゚viral</a> <a title="viral" target="_blank" href="https://www.tiktok.com/tag/viral?refer=embed">#viral</a> <a title="fürdich" target="_blank" href="https://www.tiktok.com/tag/f%C3%BCrdich?refer=embed">#fürdich</a> <a title="cute" target="_blank" href="https://www.tiktok.com/tag/cute?refer=embed">#cute</a> <a title="love" target="_blank" href="https://www.tiktok.com/tag/love?refer=embed">#love</a> <a title="couple" target="_blank" href="https://www.tiktok.com/tag/couple?refer=embed">#couple</a> <a target="_blank" title="♬ Originalton - Orangenmuffin" href="https://www.tiktok.com/music/Originalton-7277956275231640353?refer=embed">♬ Originalton - Orangenmuffin</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>',
+    'Тебя тоже надо по головке гладить после того как ты... 😂❤️'
 ), (
     '2024-01-14',
-    '',
-    ''
+    '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@ticklelaughs/video/7309453324951112990" data-video-id="7309453324951112990" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@ticklelaughs" href="https://www.tiktok.com/@ticklelaughs?refer=embed">@ticklelaughs</a> <p></p> <a target="_blank" title="♬ оригинальный звук - HumorHub" href="https://www.tiktok.com/music/оригинальный-звук-7309453388717624094?refer=embed">♬ оригинальный звук - HumorHub</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>',
+    'Я конечно буду рад, если ты будешь приезжать ко мне в Вильнюс... Но можно пожалуйста не бить меня? 😂'
 ), (
     '2024-01-15',
-    '',
-    ''
+    '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@kisey_hoodies7/video/7306897656473832710" data-video-id="7306897656473832710" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@kisey_hoodies7" href="https://www.tiktok.com/@kisey_hoodies7?refer=embed">@kisey_hoodies7</a> С худи от Ki-Sey вы точно не замерзнете☀️ <a title="kisey" target="_blank" href="https://www.tiktok.com/tag/kisey?refer=embed">#kisey</a> <a title="худи" target="_blank" href="https://www.tiktok.com/tag/%D1%85%D1%83%D0%B4%D0%B8?refer=embed">#худи</a> <a title="тренды" target="_blank" href="https://www.tiktok.com/tag/%D1%82%D1%80%D0%B5%D0%BD%D0%B4%D1%8B?refer=embed">#тренды</a> <a title="рекомендации" target="_blank" href="https://www.tiktok.com/tag/%D1%80%D0%B5%D0%BA%D0%BE%D0%BC%D0%B5%D0%BD%D0%B4%D0%B0%D1%86%D0%B8%D0%B8?refer=embed">#рекомендации</a> <a title="жизненно" target="_blank" href="https://www.tiktok.com/tag/%D0%B6%D0%B8%D0%B7%D0%BD%D0%B5%D0%BD%D0%BD%D0%BE?refer=embed">#жизненно</a> <a target="_blank" title="♬ оригинальный звук - kisey_hoodies" href="https://www.tiktok.com/music/оригинальный-звук-7306897673644280582?refer=embed">♬ оригинальный звук - kisey_hoodies</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>',
+    'Я за компанию с моей булочкой 🥶'
 ), (
     '2024-01-16',
-    '',
-    ''
+    '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@center433/video/7308028127219813674" data-video-id="7308028127219813674" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@center433" href="https://www.tiktok.com/@center433?refer=embed">@center433</a> <p>tag them🔥</p> <a target="_blank" title="♬ original sound - 𒉭" href="https://www.tiktok.com/music/original-sound-7308028174926269226?refer=embed">♬ original sound - 𒉭</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>',
+    'Дя 🥺 поцелуй меня! ❤️'
 ), (
     '2024-01-17',
-    '',
-    ''
+    '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@nastttttttttta/video/7307311217331293447" data-video-id="7307311217331293447" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@nastttttttttta" href="https://www.tiktok.com/@nastttttttttta?refer=embed">@nastttttttttta</a> <p></p> <a target="_blank" title="♬ каеееффф - Скриптонит" href="https://www.tiktok.com/music/каеееффф-7034132415408884485?refer=embed">♬ каеееффф - Скриптонит</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>',
+    'Что за девка говорит мне такие слова в видео 😂 я правда её не знаю 😬 А вообще я хочу адресовать эти слова тебе ❤️ На момент написания этого я не знаю выбрала ли ты Палангу и как часто в дальнейшем мы будем встречаться... но знай! Я очень сильно тебя люблю и верю, что мы с тобой переживём все трудности и будем счастливы ❤️'
 ), (
     '2024-01-18',
-    '',
-    ''
+    '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@anngorelikk/video/7298838301732080897" data-video-id="7298838301732080897" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@anngorelikk" href="https://www.tiktok.com/@anngorelikk?refer=embed">@anngorelikk</a> Так тоже умею 😂 <a title="рецептсырников" target="_blank" href="https://www.tiktok.com/tag/%D1%80%D0%B5%D1%86%D0%B5%D0%BF%D1%82%D1%81%D1%8B%D1%80%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2?refer=embed">#рецептсырников</a> <a title="рецептсирників" target="_blank" href="https://www.tiktok.com/tag/%D1%80%D0%B5%D1%86%D0%B5%D0%BF%D1%82%D1%81%D0%B8%D1%80%D0%BD%D0%B8%D0%BA%D1%96%D0%B2?refer=embed">#рецептсирників</a> <a target="_blank" title="♬ оригінальний звук - встретимся на тусовке" href="https://www.tiktok.com/music/оригінальний-звук-7279558378447309573?refer=embed">♬ оригінальний звук - встретимся на тусовке</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>',
+    'Если на завтрак в постель я принесу сырники, ты будешь их есть? 😂'
 ), (
     '2024-01-19',
-    '',
-    ''
+    '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@ohikio1/video/7307147660492819742" data-video-id="7307147660492819742" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@ohikio1" href="https://www.tiktok.com/@ohikio1?refer=embed">@ohikio1</a> <p>The End 🤣🤣 #funny #funnyvideos #animals #dog #cat #pet #viarl #foryou #fyp  (647)</p> <a target="_blank" title="♬ nhạc nền - Momoland" href="https://www.tiktok.com/music/nhạc-nền-7307147793880107806?refer=embed">♬ nhạc nền - Momoland</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>',
+    'Блин, сейчас сижу, пишу эти комментарии и... хочу твой палец в рот 😂'
 ), (
     '2024-01-20',
-    '',
-    ''
+    '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@shubarovalizaveta/video/7307331060986268934" data-video-id="7307331060986268934" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@shubarovalizaveta" href="https://www.tiktok.com/@shubarovalizaveta?refer=embed">@shubarovalizaveta</a> <p>🥰🤍</p> <a target="_blank" title="♬ оригинальный звук - Asema" href="https://www.tiktok.com/music/оригинальный-звук-7294592921188633345?refer=embed">♬ оригинальный звук - Asema</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>',
+    'Тут не надо было искать намеков 😂 мужик... 😬'
 ), (
     '2024-01-21',
-    '',
-    ''
+    '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@f.o.t.g.m/video/7302688343257615647" data-video-id="7302688343257615647" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@f.o.t.g.m" href="https://www.tiktok.com/@f.o.t.g.m?refer=embed">@f.o.t.g.m</a> <p></p> <a target="_blank" title="♬ original sound - F.O.T.G.M." href="https://www.tiktok.com/music/original-sound-7302688439558867742?refer=embed">♬ original sound - F.O.T.G.M.</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>',
+    'Хочешь, буду бегать за тобой также? 😂'
 ), (
     '2024-01-22',
-    '',
-    ''
+    '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@penny_the_pidoublegy/video/7305536311958441247" data-video-id="7305536311958441247" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@penny_the_pidoublegy" href="https://www.tiktok.com/@penny_the_pidoublegy?refer=embed">@penny_the_pidoublegy</a> She loves it <a title="fyp" target="_blank" href="https://www.tiktok.com/tag/fyp?refer=embed">#fyp</a> <a title="pig" target="_blank" href="https://www.tiktok.com/tag/pig?refer=embed">#pig</a> <a title="foryoupage" target="_blank" href="https://www.tiktok.com/tag/foryoupage?refer=embed">#foryoupage</a> <a title="pigsoftiktok" target="_blank" href="https://www.tiktok.com/tag/pigsoftiktok?refer=embed">#pigsoftiktok</a> <a title="asmr" target="_blank" href="https://www.tiktok.com/tag/asmr?refer=embed">#asmr</a> <a target="_blank" title="♬ original sound - Penny Pig ❤️🐷" href="https://www.tiktok.com/music/original-sound-7305536337531194142?refer=embed">♬ original sound - Penny Pig ❤️🐷</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>',
+    'Вот так надо чесать мне спинку 😂'
 ), (
     '2024-01-23',
-    '',
-    ''
+    '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@famas_company/video/7301198561188809989" data-video-id="7301198561188809989" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@famas_company" href="https://www.tiktok.com/@famas_company?refer=embed">@famas_company</a> <p>ну реально же так 😅</p> <a target="_blank" title="♬ оригинальный звук - Artem" href="https://www.tiktok.com/music/оригинальный-звук-7301198572257577733?refer=embed">♬ оригинальный звук - Artem</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>',
+    'Ой... ну ты знаешь мои слабые зоны 👀'
 ), (
     '2024-01-24',
-    '',
-    ''
+    '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@alinamadelinee/video/7306913726601596161" data-video-id="7306913726601596161" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@alinamadelinee" href="https://www.tiktok.com/@alinamadelinee?refer=embed">@alinamadelinee</a> мой тг: татарочка <a title="отношениянарасстоянии" target="_blank" href="https://www.tiktok.com/tag/%D0%BE%D1%82%D0%BD%D0%BE%D1%88%D0%B5%D0%BD%D0%B8%D1%8F%D0%BD%D0%B0%D1%80%D0%B0%D1%81%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D0%B8?refer=embed">#отношениянарасстоянии</a> <a target="_blank" title="♬ original sound - vance" href="https://www.tiktok.com/music/original-sound-7271504607128423210?refer=embed">♬ original sound - vance</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>',
+    'Хоть мы и редко с тобой созваниваемся по видео, но я очень ценю эти моменты, когда я могу тебя увидеть за сотни километров друг от друга ❤️'
 ), (
     '2024-01-25',
-    '',
-    ''
+    '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@nakejla/video/7305686235459226886" data-video-id="7305686235459226886" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@nakejla" href="https://www.tiktok.com/@nakejla?refer=embed">@nakejla</a> <a title="nakejla" target="_blank" href="https://www.tiktok.com/tag/nakejla?refer=embed">#nakejla</a> <a target="_blank" title="♬ sonido original - Js" href="https://www.tiktok.com/music/sonido-original-7300405183186570027?refer=embed">♬ sonido original - Js</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>',
+    'Однозначно 1 😂 прости меня 🥺 люблю ❤️'
 ), (
     '2024-01-26',
-    '',
-    ''
+    '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@ssofffie/video/7310153649638870305" data-video-id="7310153649638870305" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@ssofffie" href="https://www.tiktok.com/@ssofffie?refer=embed">@ssofffie</a> <p></p> <a target="_blank" title="♬ original sound - lilly" href="https://www.tiktok.com/music/original-sound-7261696680721976090?refer=embed">♬ original sound - lilly</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>',
+    'Обожаю твои волосы на теле 🙈❤️'
 ), (
     '2024-01-27',
-    '',
-    ''
+    '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@damninfluence/video/7313239313469246722" data-video-id="7313239313469246722" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@damninfluence" href="https://www.tiktok.com/@damninfluence?refer=embed">@damninfluence</a> tg:damninfluence <a title="damninfluence" target="_blank" href="https://www.tiktok.com/tag/damninfluence?refer=embed">#damninfluence</a> <a title="influence" target="_blank" href="https://www.tiktok.com/tag/influence?refer=embed">#influence</a> <a title="damn" target="_blank" href="https://www.tiktok.com/tag/damn?refer=embed">#damn</a> <a title="fyp" target="_blank" href="https://www.tiktok.com/tag/fyp?refer=embed">#fyp</a> <a title="virall" target="_blank" href="https://www.tiktok.com/tag/virall?refer=embed">#virall</a> <a title="foryou" target="_blank" href="https://www.tiktok.com/tag/foryou?refer=embed">#foryou</a> <a title="рекомендации" target="_blank" href="https://www.tiktok.com/tag/%D1%80%D0%B5%D0%BA%D0%BE%D0%BC%D0%B5%D0%BD%D0%B4%D0%B0%D1%86%D0%B8%D0%B8?refer=embed">#рекомендации</a> <a title="рек" target="_blank" href="https://www.tiktok.com/tag/%D1%80%D0%B5%D0%BA?refer=embed">#рек</a><a title="девушка" target="_blank" href="https://www.tiktok.com/tag/%D0%B4%D0%B5%D0%B2%D1%83%D1%88%D0%BA%D0%B0?refer=embed">#девушка</a><a title="отношения" target="_blank" href="https://www.tiktok.com/tag/%D0%BE%D1%82%D0%BD%D0%BE%D1%88%D0%B5%D0%BD%D0%B8%D1%8F?refer=embed">#отношения</a> <a target="_blank" title="♬ Khaos Emerald by 9lives - syco" href="https://www.tiktok.com/music/Khaos-Emerald-by-9lives-7187492654579075845?refer=embed">♬ Khaos Emerald by 9lives - syco</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>',
+    'Да! Я до сих пор не могу поверить, как мне с тобой повезло 😍'
 ), (
     '2024-01-28',
-    '',
-    ''
+    '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@iitsemir/video/7313597705484340481" data-video-id="7313597705484340481" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@iitsemir" href="https://www.tiktok.com/@iitsemir?refer=embed">@iitsemir</a> <p>Я своего рода инвестор 😉</p> <a target="_blank" title="♬ оригинальный звук - modestshady" href="https://www.tiktok.com/music/оригинальный-звук-7311963711085497089?refer=embed">♬ оригинальный звук - modestshady</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>',
+    'Для хорошей жены - хорошие инвестиции 🤭'
 ), (
     '2024-01-29',
-    '',
-    ''
+    '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@tima66663/video/7305329959072025861" data-video-id="7305329959072025861" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@tima66663" href="https://www.tiktok.com/@tima66663?refer=embed">@tima66663</a> <a title="рекомендации❤️" target="_blank" href="https://www.tiktok.com/tag/%D1%80%D0%B5%D0%BA%D0%BE%D0%BC%D0%B5%D0%BD%D0%B4%D0%B0%D1%86%D0%B8%D0%B8%E2%9D%A4%EF%B8%8F?refer=embed">#рекомендации❤️</a> <a title="fur" target="_blank" href="https://www.tiktok.com/tag/fur?refer=embed">#fur</a> <a title="fyp" target="_blank" href="https://www.tiktok.com/tag/fyp?refer=embed">#fyp</a> @💗 <a target="_blank" title="♬ оригинальный звук - No Name😎" href="https://www.tiktok.com/music/оригинальный-звук-7305329975733684998?refer=embed">♬ оригинальный звук - No Name😎</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>',
+    'Кхм ... 🙈 это тооочно не про нас 😂'
 ), (
     '2024-01-30',
-    '',
-    ''
+    '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@anatoly.infestik/video/7313174091320675590" data-video-id="7313174091320675590" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@anatoly.infestik" href="https://www.tiktok.com/@anatoly.infestik?refer=embed">@anatoly.infestik</a> <p></p> <a target="_blank" title="♬ оригинальный звук - Infestik 🦋" href="https://www.tiktok.com/music/оригинальный-звук-7313174122282371846?refer=embed">♬ оригинальный звук - Infestik 🦋</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>',
+    'Прикинь... ты встречаешься с 20-ти летним мужиком... почти дедом 😬'
 ), (
     '2024-01-31',
-    '',
-    ''
+    '<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@bichevskiy_official1/video/7302806545044147462" data-video-id="7302806545044147462" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@bichevskiy_official1" href="https://www.tiktok.com/@bichevskiy_official1?refer=embed">@bichevskiy_official1</a> <a title="отпуск2021" target="_blank" href="https://www.tiktok.com/tag/%D0%BE%D1%82%D0%BF%D1%83%D1%81%D0%BA2021?refer=embed">#отпуск2021</a> <a title="отпуск" target="_blank" href="https://www.tiktok.com/tag/%D0%BE%D1%82%D0%BF%D1%83%D1%81%D0%BA?refer=embed">#отпуск</a> <a title="отдых" target="_blank" href="https://www.tiktok.com/tag/%D0%BE%D1%82%D0%B4%D1%8B%D1%85?refer=embed">#отдых</a> <a title="путешествие" target="_blank" href="https://www.tiktok.com/tag/%D0%BF%D1%83%D1%82%D0%B5%D1%88%D0%B5%D1%81%D1%82%D0%B2%D0%B8%D0%B5?refer=embed">#путешествие</a> <a target="_blank" title="♬ оригинальный звук - Тима Бичевский" href="https://www.tiktok.com/music/оригинальный-звук-7302806591074683653?refer=embed">♬ оригинальный звук - Тима Бичевский</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>',
+    'Это наше совместное путешествие этой зимой 😂'
 );

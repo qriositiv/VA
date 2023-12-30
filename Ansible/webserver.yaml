@@ -1,7 +1,7 @@
 ---
 - name: Install Apache2 and PHP modules
   hosts: localhost
-  become: true
+  become: yes
 
   tasks:
     - name: 1. Update apt package cache
