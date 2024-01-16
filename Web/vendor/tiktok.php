@@ -7,61 +7,95 @@
     <link rel="icon" href="../images/icon.png" type="../images/icon.png">
     <title>VA Love Page</title>
     <link rel="stylesheet" type="text/css" href="../style.css">
+    <style>
+        form {
+            margin-top: 0px;
+        }
+
+        #message {
+            width: 100%;
+            margin-top: 10px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            padding: 12px;
+            box-sizing: border-box;
+            outline: none;
+            font-size: 16px;
+            transition: border-color 0.3s;
+            font-family: 'Comic Sans MS', cursive;
+        }
+
+        #message:focus {
+            border-color: #ff4d4d;
+        }
+
+        .button-container {
+            margin-top: 0px;
+        }
+    </style>
 </head>
 
 <body>
 
     <div id="container">
+        <div id="videoContainer">
+            <?php
+            try {
+                require_once '../config/connect.php';
 
-    <?php
+                if (!$connect) {
+                    header('Location: ../notFound.html');
+                    exit();
+                }
 
-try {
-    require_once '../config/connect.php';
+                $currentDateTime = new DateTime('now', new DateTimeZone('UTC'));
+                $currentDateTime->modify('-5 hours');
+                $currentDate = $currentDateTime->format('Y-m-d');
 
-    if (!$connect) {
-        header('Location: ../notFound.html');
-        exit();
-    }
+                $query = "SELECT link_embed, link_description FROM link WHERE link_date = ?";
+                $stmt = mysqli_prepare($connect, $query);
 
-    $currentDateTime = new DateTime('now', new DateTimeZone('UTC'));
-    $currentDateTime->modify('-6 hours');
-    $currentDate = $currentDateTime->format('Y-m-d');
+                if (!$stmt) {
+                    header('Location: ../notFound.html');
+                    exit();
+                }
 
-    $query = "SELECT link_embed, link_description FROM link WHERE link_date = ?";
-    $stmt = mysqli_prepare($connect, $query);
+                mysqli_stmt_bind_param($stmt, 's', $currentDate);
+                mysqli_stmt_execute($stmt);
 
-    if (!$stmt) {
-        header('Location: ../notFound.html');
-        exit();
-    }
+                $result = mysqli_stmt_get_result($stmt);
 
-    mysqli_stmt_bind_param($stmt, 's', $currentDate);
-    mysqli_stmt_execute($stmt);
+                if ($result && mysqli_num_rows($result) > 0) {
+                    $row = mysqli_fetch_assoc($result);
 
-    $result = mysqli_stmt_get_result($stmt);
+                    $link_embed = $row['link_embed'];
+                    $link_description = $row['link_description'];
 
-    if ($result && mysqli_num_rows($result) > 0) {
-        $row = mysqli_fetch_assoc($result);
+                    echo $link_embed;
+                    echo "<p>$link_description</p>";
+                } else {
+                    header('Location: ../notFound.html');
+                    exit();
+                }
 
-        $link_embed = $row['link_embed'];
-        $link_description = $row['link_description'];
+                mysqli_stmt_close($stmt);
+                mysqli_close($connect);
+            } catch (Exception $e) {
+                echo 'Error: ' . $e->getMessage();
+            }
+            ?>
+        </div>
 
-        echo $link_embed;
-        echo "<p>$link_description</p>";
-    } else {
-        header('Location: ../notFound.html');
-        exit();
-    }
+        <form action="processForm.php" method="post">
+            <label for="message">Написать сообщение парню:</label>
+            <input type="text" id="message" name="message" required autocomplete="off">
 
-    mysqli_stmt_close($stmt);
-    mysqli_close($connect);
+            <div class="button-container">
+                <button type="submit" class="button" id="button">Отправить</button>
+            </div>
+        </form>
 
-} catch (Exception $e) {
-    echo 'Error: ' . $e->getMessage();
-}
-
-    ?>
-
+        <p><i>2024 💫 VA-love page </i></p>
     </div>
 
 </body>

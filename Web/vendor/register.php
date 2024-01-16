@@ -11,7 +11,7 @@ try {
         exit();
     }
 
-    $start_time = date('Y-m-d H:i:s', strtotime('+2 hours'));
+    $start_time = date('Y-m-d H:i:s', strtotime('+7 hours'));
 
     $query = "INSERT INTO visit (visit_time) VALUES (?)";
     $stmt = mysqli_prepare($connect, $query);
@@ -31,10 +31,11 @@ try {
 
     mysqli_stmt_close($stmt);
     mysqli_close($connect);
+
+    header('Location: tiktok.php');
+
 } catch (Exception $e) {
     echo 'Error: ' . $e->getMessage();
 }
-
-header('Location: tiktok.php');
 
 ?>
