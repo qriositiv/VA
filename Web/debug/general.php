@@ -4,15 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="images/icon.png" type="images/icon.png">
+    <link rel="icon" href="../images/icon.png" type="../images/icon.png">
     <title>VA Love Page</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="../style.css">
 </head>
 
 <body>
 
     <div id="container">
-        <img id="image" src="images/knife.png" alt="Image">
+        <img id="image" src="../images/knife.png" alt="Image">
         <div id="textAbove">
             <h2>Зая... Тут закулисье...</h2>
             <p>Тебе точно нужно знать, что здесь происходит?<p>
@@ -24,6 +24,30 @@
         </div>
 
         <div id="countdown"></div>
+
+        <?php /*
+        require_once '../config/connect.php';
+
+        function displayVisits() {
+            global $connect;
+
+            $query = "SELECT visit_id, visit_time FROM visit ORDER BY visit_time DESC LIMIT 5";
+            $result = mysqli_query($connect, $query);
+
+            if ($result) {
+                echo "<hr>";
+
+                while ($row = mysqli_fetch_assoc($result)) {
+                    echo "{$row['visit_time']}<hr>";
+                }
+
+            } else {
+                echo "Error: " . mysqli_error($conn);
+            }
+        }
+
+        displayVisits(); */
+        ?>
 
         <div id="textAbove">
             <p>И да, я люблю тебя! ❤️<p>
