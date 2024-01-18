@@ -48,8 +48,12 @@
                     exit();
                 }
 
-                $currentDateTime = new DateTime('now', new DateTimeZone('UTC'));
-                $currentDateTime->modify('-5 hours');
+                date_default_timezone_set('Europe/Vilnius');
+
+                $currentDateTime = new DateTime('now', new DateTimeZone('Europe/Vilnius'));
+
+                $currentDateTime->setTime(6, 0, 0);
+
                 $currentDate = $currentDateTime->format('Y-m-d');
 
                 $query = "SELECT link_embed, link_description FROM link WHERE link_date = ?";
@@ -84,6 +88,8 @@
                 echo 'Error: ' . $e->getMessage();
             }
             ?>
+
+            <hr>
         </div>
 
         <form action="processForm.php" method="post">

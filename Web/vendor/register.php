@@ -11,7 +11,9 @@ try {
         exit();
     }
 
-    $start_time = date('Y-m-d H:i:s', strtotime('+7 hours'));
+    date_default_timezone_set('Europe/Vilnius');
+    
+    $start_time = date('Y-m-d H:i:s');
 
     $query = "INSERT INTO visit (visit_time) VALUES (?)";
     $stmt = mysqli_prepare($connect, $query);
@@ -37,5 +39,4 @@ try {
 } catch (Exception $e) {
     echo 'Error: ' . $e->getMessage();
 }
-
 ?>
