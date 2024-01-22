@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../images/icon.png" type="../images/icon.png">
     <title>VA Love Page</title>
-    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" type="text/css" href="../style-v1.1.css">
 </head>
 
 <body>
@@ -25,7 +25,7 @@
 
         <div id="countdown"></div>
 
-        <?php /*
+        <?php
         require_once '../config/connect.php';
 
         function displayVisits() {
@@ -46,7 +46,7 @@
             }
         }
 
-        displayVisits(); */
+        displayVisits();
         ?>
 
         <div id="textAbove">

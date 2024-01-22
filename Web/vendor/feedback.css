@@ -11,7 +11,28 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh; 
+}
+
+#textAbove {
+    margin: 10px 0;
+    color: #333;
+}
+
+#logo {
+    width: 250px;
+    margin-bottom: -50px;
+}
+
+#image {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+#videoContainer {
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 .button {
@@ -28,22 +49,11 @@ body {
     color: #fff;
 }
 
-#textAbove {
-    margin: 10px 0;
+#footer {
+    margin-top: auto;
+}
+
+#lastSegmentText {
     color: #333;
-}
-
-#logo {
-    width: 250px;
-    margin-bottom: -50px; 
-}
-
-#image {
-    width: 250px;
-    margin-bottom: -20px; 
-}
-
-#videoContainer {
-    width: 100%;
     margin-bottom: 20px;
 }

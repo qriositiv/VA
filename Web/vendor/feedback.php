@@ -3,10 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="icon" href="../images/icon.png" type="../images/icon.png">
     <title>VA Love Page</title>
-    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" type="text/css" href="feedback.css">
 </head>
 
 <body>
@@ -15,6 +15,7 @@
         <img id="logo" src="../images/mail.png" alt="Logo"> 
         <div id="textAbove">
             <h2>Почта 🥰</h2>
+            <hr>
 
             <?php
             require_once('../config/connect.php');
@@ -41,6 +42,7 @@
                 <button id="button" class="button" type="submit">Вернуться на главную</button>
             </form>
 
+            <p><i>2024 💫 VA love page</i></p>
         </div>
     </div>
 
